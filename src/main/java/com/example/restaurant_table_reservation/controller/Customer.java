@@ -9,6 +9,6 @@ public class Customer {
     @GetMapping("/customer")
     @ResponseBody
     public String customer(){
-        return "Hello Welcome Customer"
+        return "Hello Welcome Customer";
     }
 }
